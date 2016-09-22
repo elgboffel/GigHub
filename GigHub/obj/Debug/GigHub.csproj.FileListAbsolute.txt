@@ -183,3 +183,4 @@ C:\Users\Johnny Kristensen\Desktop\Sites\GigHub\GigHub\bin\System.Net.Http.Forma
 C:\Users\Johnny Kristensen\Desktop\Sites\GigHub\GigHub\bin\System.Web.Http.xml
 C:\Users\Johnny Kristensen\Desktop\Sites\GigHub\GigHub\bin\System.Web.Http.WebHost.xml
 C:\Users\Johnny Kristensen\Desktop\Sites\GigHub\GigHub\obj\Debug\GigHub.Migrations.CreateFollowing.resources
+C:\Users\Johnny Kristensen\Desktop\Sites\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddIsCanceledToGig.resources

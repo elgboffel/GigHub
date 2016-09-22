@@ -209,6 +209,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\Api\GigsController.cs" />
     <Compile Include="Controllers\AttendancesController.cs" />
     <Compile Include="Controllers\AutorizeAttribute.cs" />
     <Compile Include="Controllers\FollowingsController.cs" />
@@ -251,6 +252,10 @@
     <Compile Include="Migrations\201609151803499_CreateFollowing.cs" />
     <Compile Include="Migrations\201609151803499_CreateFollowing.Designer.cs">
       <DependentUpon>201609151803499_CreateFollowing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609221935387_AddIsCanceledToGig.cs" />
+    <Compile Include="Migrations\201609221935387_AddIsCanceledToGig.Designer.cs">
+      <DependentUpon>201609221935387_AddIsCanceledToGig.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -329,8 +334,9 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Gigs\Create.cshtml" />
+    <Content Include="Views\Gigs\GigForm.cshtml" />
     <Content Include="Views\Shared\Gigs.cshtml" />
+    <Content Include="Views\Gigs\Mine.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -367,6 +373,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201609151803499_CreateFollowing.resx">
       <DependentUpon>201609151803499_CreateFollowing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609221935387_AddIsCanceledToGig.resx">
+      <DependentUpon>201609221935387_AddIsCanceledToGig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
